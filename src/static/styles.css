@@ -76,13 +76,11 @@ section h3 {
 
 .activity-card ul {
   margin-top: 10px;
-  padding-left: 20px;
+  padding-left: 15px; /* Adjusted padding for alignment */
   list-style-type: disc;
   color: #555;
-  background-color: #f1f1f1;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
+  background-color: transparent;
+  border: none;
 }
 
 .activity-card ul li {
@@ -125,7 +123,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
